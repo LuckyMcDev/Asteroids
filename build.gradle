@@ -15,7 +15,7 @@ java {
 
 ext.jmonkeyengineVersion = '3.7.0-stable'
 
-mainClassName = 'test.me.Asteroids'
+mainClassName = 'net.lucky.Asteroids'
 if (!hasProperty('mainClass')) {
     ext.mainClass = mainClassName
 }
